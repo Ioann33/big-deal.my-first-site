@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#page{
+    min-width: 1350px;
+}
+header{
+
+    height: 60px;
+    background-color: #000000;
+    min-width: 1350px;
+    display: flex;
+    position: fixed;
+}
+h1{
+    margin-left: 5px;
+    padding: 5px;
+    width: 10%;
+}
+h1 img{
+    height: 80px;
+    cursor: pointer;
+}
+
+main{
+    min-height: 300px;
+    overflow: hidden;
+}
+
+#tsb{
+    height: 430px;
+    width: 100%;
+    background-image: url("../images/nav-bg.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+#tsb p{
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+
+#tsb img{
+    height: 370px;
+    float: right;
+    margin-top: -180px;
+    margin-right: 40px;
+}
+#content{
+    /*background-color: #dbdbdb;*/
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    height: 60px;
+    /*background-color: #7a7a7a;*/
+}
+header p{
+
+    display: flex;
+    margin-top: 12px;
+    margin-right: 5px;
+    width: 10%;
+}
+header p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    height: 27px;
+    width: 70px;
+    background-color: #6fc080;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+nav{
+    width: 80%;
+    margin-top: 18px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    align-items: center;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #707070;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px;
+
+}
+footer{
+    text-align: center;
+    background-color: #2b2b2b;
+    color: #c0c0c0;
+    margin-top: 50px;
+}
+footer  a{
+    color: #c0c0c0;
+    text-decoration: none;
+}
+h2{
+    text-align: left;
+    margin: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #b2b2a9;
+    margin: 50px auto 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+form>div{
+    margin: 5px;
+    padding: 5px;
+    background-color: #565656;
+    color: #ffffff;
+    border-radius: 5px;
+}
+label{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.img1{
+    margin: 10px;
+}
+#lsb{
+    width: 65%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#lsb p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+#rsb{
+    width: 35%;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgba(112,112,112,0.16);
+    border-radius: 5px;
+    height: 100%;
+
+}
+#rsb img{
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+#tsb>div{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: rgba(0,8,86,0.30);
+    padding: 5px;
+}
+.errors{
+    background-color: #ff4955;
+    color: #ffffff;
+    width: 310px;
+    margin: 50px auto 20px;
+    padding: 10px;
+}
+.errors ul li{
+    font-size: 1.2rem;
+}
+.button{
+    width: 50px;
+    float: left;
+    margin: 5px;
+    padding: 0;
+}
+.text{
+    width: 100%;
+    min-height: 200px;
+}
+.text>div{
+    float: left;
+    width: 90%;
+    box-sizing: border-box;
+    padding-bottom:20px ;
+}
+
+.deleteButton{
+    width: 70px;
+    background-color: #ff5956;
+}
+.createText{
+    margin-left: 5px;
+    float: left;
+    width: 800px;
+}
+.createText textarea{
+    width: 700px;
+    height: 200px;
+}
+.createText input{
+    width: 70px;
+
+}
+.createText>div{
+    background-color: #6fc080;
+    ppadding: 5px;
+    width: 80px;
+}
+.uploadPhoto{
+
+}
+.uploadPhoto>div>input{
+    width: 70px;
+    height: 30px;
+}
+pre{
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+}
+.grille{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(189,189,189,0.2);
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.grille img{
+    height: 400px;
+}
+.photoExpiration{
+    width: 350px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+
